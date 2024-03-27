@@ -30,7 +30,17 @@ This simple Python script checks if a website is valid for web scraping purposes
 
 6. Enter the URL of the website you want to check when prompted.
 
-7. The script will output whether the website is valid for web scraping or not based on the HTTP response status code.
+7. The script will output whether the website is valid for web scraping or not based on the HTTP response status code.ry
+
+8. If none of these options work, you can try:
+   
+   '''
+   import requests as r
+   url = "https://....."
+   site = r.get(url)
+   print(site)
+   '''
+   It does the exact same thing. 
 
 ## Contributing
 
