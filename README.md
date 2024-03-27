@@ -1,6 +1,6 @@
 # Christina's Amazing Website Checker
 
-This simple Python script checks if a website is valid for web scraping purposes. It uses the `requests` library for HTTP requests to the entered URL and checks if for status code 200 (OK), which shows that the website is accessible.
+This simple Python script checks if a website is valid for web scraping purposes. Skip the hassle of going to Google, entering the website URL and then clicking on it to see if it exists. This uses the `requests` library for HTTP requests to the entered URL and checks if for status code 200 (VALID), which shows that the website is accessible all from the ease of your source-code editor of choice!
 
 ## Features
 
