@@ -25,7 +25,7 @@ This simple Python script checks if a website is valid for web scraping purposes
 5. Run the script by executing the following command:
 
     ```
-    python website_checker.py
+    python3 website_checker.py
     ```
 
 6. Enter the URL of the website you want to check when prompted.
